@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="input-container">
+      <h1>to do</h1>
+      <input type="text" id="taskInput" placeholder="Add a new task" />
+      <button class="add-task-btn">Add</button>
+    </div>
+    <ul id="taskList">
+      <!--<li class="task green-gradient-task">
+        <input type="checkbox" class="custom-checkbox hidden" /> task #1
+        <button class="delete-task">delete</button>
+      </li>
+      <li>
+        <input type="checkbox" class="custom-checkbox" />task #2 asda dafavsfc
+        <button class="delete-task">delete</button>
+      </li>-->
+    </ul>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>congratulations, you have completed all the proposed tasks 😍</h1>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>

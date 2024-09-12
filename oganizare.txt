@@ -1,0 +1,5 @@
+1. Vreau sa pot crea un nou task, si pe buton si cand apas tasta "Enter"
+2. Vreau sa pot sterge un task
+3. Vreau sa pot bifa un task terminat
+4. Vreau ca atunci cand toate taskurile de pe lista sunt bifate sa apara un mesaj pe ecran
+5. Vreau ca datele folosite sa ramana si dupa ce inchid browserul si il redeschid
